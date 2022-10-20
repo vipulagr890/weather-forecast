@@ -81,7 +81,10 @@ function App() {
         </div>
 
         <div>
-          <img src={weatherData?.current?.weather_icons[0]} />
+          <img
+            src={weatherData?.current?.weather_icons[0]}
+            alt="weather_icon"
+          />
           <p>{weatherData?.current?.weather_descriptions[0]}</p>
         </div>
       </div>
