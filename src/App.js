@@ -29,7 +29,7 @@ function App() {
   useEffect(() => {
     axios
       .get(
-        `http://api.weatherstack.com/current?access_key=efec70dacc559562b64d3c624d00b0f1&query=${city}`
+        `http://api.weatherstack.com/current?access_key=20460728adc8e34baf86a7a6cab0dc79&query=${city}`
       )
       .then((res) => {
         console.log(res.data);
